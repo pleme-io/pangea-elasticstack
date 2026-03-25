@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Elasticstack; module Types; end; end; end; end
+
 # Elasticstack resources
 require_relative 'pangea/resources/elasticstack_apm_agent_configuration/resource'
 require_relative 'pangea/resources/elasticstack_elasticsearch_cluster_settings/resource'
